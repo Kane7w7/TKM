@@ -1,0 +1,58 @@
+body{
+    background: url(../img/Kirby_fondo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding: 10px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/Kirby_icon.jpg) center;
+    box-shadow: 10px 10px 20px black;
+    background-color: black;
+    background-attachment:local;
+    background-size: cover;
+    font-family: sans-serif;
+    position: absolute;
+    color: white;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: whitesmoke;
+    top: 25%;
+    left: 35%;
+    padding: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px black;
+}
+h1,h2{
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    margin: 30px;
+}
+.box p{
+    font-size: large;
+    margin: 5px;
+    text-shadow: 5px 5px 5px black;
+}
+.box input{
+    margin: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px 1px whitesmoke;
+    border: inset;
+    width: 60%;
+    height: 15%;
+    font-size: large;
+}
